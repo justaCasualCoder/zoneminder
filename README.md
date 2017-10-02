@@ -1,4 +1,4 @@
-# zoneminder
+# Zoneminder Installer
 Zoneminder install script
 
 I have tested this on budgie-remix 16.04-1 desktop x64 and Ubuntu 16.04-1 server x64. This shell script should work on and Ubuntu 16.04 desktop (Mint, Lubuntu et. al.). You do not have to have LAMP, Apache or MySQL installed to run this. The script will install everything Zoneminder needs to function and set up Zoneminder!
