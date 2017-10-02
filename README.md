@@ -1,0 +1,2 @@
+# zoneminder
+Zoneminder install script
