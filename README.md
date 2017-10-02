@@ -9,11 +9,11 @@ Copy the file, zm_install, to your home directory.
 
 Open a terminal and run:
 
-chmod 755 zm_install
+<code>chmod 755 zm_install</code>
 
 Start the script by entering:
 
-./zm_install
+<code>./zm_install</code>
 
 Follow the prompts. Things are pretty simple till you get to adding the timezone to PHP then you will need to know how to operate Nano. As a help you can see how it is done in the procedure above.
 
