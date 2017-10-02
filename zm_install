@@ -3,7 +3,7 @@
 clear
 read -p "This script installs the latest Zoneminder from the PPA for Ubuntu 16.04...Press Enter to continue or Ctrl + c to quit" nothing
 clear
-read -p "Next enter your user password after pressing enter to continue" nothing
+read -p "Enter your sudo user password, then press enter to continue." nothing
 
 sudo apt-get update
 
