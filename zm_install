@@ -40,9 +40,9 @@ sudo systemctl enable zoneminder
 sudo service zoneminder start
 
 clear
-read -p "Next we will add timezone yo PHP. Nano will open, search for :date.timezone = and make it look like date.timezone = America/New_York Press enter to continue" nothing
+read -p "Next we will add timezone to PHP. Press enter to continue" nothing
 
-sudo nano /etc/php/7.0/apache2/php.ini
+sudo sed -i "s/;date.timezone =/date.timezone = $(sed 's/\//\\\//' /etc/timezone)/g" /etc/php/7.0/apache2/php.ini
 
 sudo service apache2 reload
 
